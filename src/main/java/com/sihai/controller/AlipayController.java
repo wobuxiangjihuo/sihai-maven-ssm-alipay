@@ -91,7 +91,7 @@ public class AlipayController {
 
 	/**
 	 *
-	 * @param productId
+	 *
 	 * @return
 	 * @throws Exception
 	 */
@@ -301,7 +301,8 @@ public class AlipayController {
 	 */
 	@RequestMapping(value = "/alipayNotifyNotice")
 	@ResponseBody
-	public String alipayNotifyNotice(HttpServletRequest request, HttpServletRequest response) throws Exception {
+	public String alipayNotifyNotice(HttpServletRequest request, HttpServletRequest response) throws Exception
+	{
 
 		log.info("支付成功, 进入异步通知接口...");
 

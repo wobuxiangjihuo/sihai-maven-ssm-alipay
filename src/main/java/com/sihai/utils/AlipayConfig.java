@@ -2,19 +2,19 @@ package com.sihai.utils;
 
 public class AlipayConfig {
 
-	public static String app_id = "";//在后台获取（必须配置）
+	public static String app_id = "2016101100662495";
 	
-	public static String merchant_private_key = "";//教程查看获取方式（必须配置）
+	public static String merchant_private_key = "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCFKjtdBtINrxuJbEJxXa0kkIw7N2WSMYXcdc5a3pl7T3AK00A+wyb5jiQpkUsJG4gODJyfO/xW9dIKEu4cNFRkulawgxghvZ5rxpb7sJgXZqa9DIiq3zpi1ksfoWO6WqUTpnTbp6fUccBXgPSgSYuhMz0HRxfw79W4Yif5x8Ln+UGjFWwAH4WZFeSYFRBEb8fZ6EpbjYMH6JD9PTDEjV4iukgoIET8uJ+ZxunlhF6d+qZaYony8fItAxo/QhIsVyTUwa8CRshdc7PFlBeHf5xkPcBewEtUKIaPyngmSAqEUvgFFAyhS+Ge6+prLnqshvJSyyV08ok1ogRRxi7mqXB5AgMBAAECggEACTNRxquh97ARhv0j2hFO1SfniG/bZK5nQUQibcTTdeGXLChMWAnDt5pKhVS0inyMeewFJjtOw/NX/7ovGWPEMPFu6+Mi17HyMCAYbmtVFsjQ3F7xUlz5+7oylozgBxAcN69Yg5Sh09vIHkOaozhxnUGdBdOzo8HuUj715BwZK03CwEUvrHLSrYJ/9IPnCRTs0THs+Xa/OkMioePAV1QXfLQx6xytk6aDzt6fffqSx5z+LbD6h1nSyeo0lEb/FLG4IOPWvuFtxj1JghX7knj/OnGGUzAZ/4qFRyRv0B1tRzT6UKQXDO4P1gKEefIn6ctBwj+I+QwP9VYehPcoIO6kwQKBgQD5JXq86ACUXlzDTi8WT9oIh+ZiDWCYCj634eUw5ivnApienQSrDCN2foBUj31e2zRia35arocSn0tJjJSbx/L7g/TTH75tn5zcaghjcTrRY2kGm0vDV3ANPoqtaPwUpmhRVn2LvchIEX5gHzMM8aK9R9qhF7LBXmm8TpVl7XamowKBgQCI0/8Y1tlWhmqS3vAtsBBwRlGdfBluGZKBE77/PgRb8VY049ZcaKmLZx/HR+OtUbaPUKKW0xji9eqOv5eP9uPjg6968ItB4k1bdrZaDd56TMY1bSfMwaqh7hln4aLy5B8ID3g3jxkKZX4id+6owfLuoB/Te7h8ritmJFbxOQqqMwKBgAZJsd1OpaUY9JJhSMLxZPlOJLxYxhVQPOD7LIOda4I7CIsIP3PprINzEd4QeQOJ2LqbJ+c1/Ga16nqCt8VuuG0smWMyq+WsX5MYgfmwg+GA9seZ58GYVVWgPHO/8Iy83mkfG7AJLCLVfjEC2JD9EDRiudvS80n6DgUYnqCh65qtAoGAV67zVOmqEabF+STg6YZgonKNrsxuR34fwpPy3ALULE92HSK8pi90Jx+I394T62foA+N6rgjNc/R/wcbJy7o9w/kJpVEtDKWHSUvEA+XLYrh8dJRk4vRg8rBwm3+fOuQxdqrjMUeEloL/1/rfeEoB8iWu/4nTaiL7MNOs25zgVr0CgYAnE04cBh8uOdd+NNDFqbvcjSOGk5/r+s1D8YnYosRS5V2gl/ZGH1Y/xxk5L7FSTarfml6jN0Tb34gD3VKI/ZxVyhDEUv8MNVDdMPKVp/DMa4EJW820ZVlZAplKZlexl/rwCZpt6FKT3zhkHprDJz6xmATpbzuWeCFzkuEhft/kxA==";
 
-	public static String alipay_public_key = "";//教程查看获取方式（必须配置）
-	
+	public static String alipay_public_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtixiK0747ORAIcnAUdHhPgFR0JqbMpEbZyATdyFkXlL/63H27MC8j2lNeP1PXPcBdAnyYSF0WtKo/3EbIIypLRG59hplA0sq4Jx/FeyuhtX8QeeOzkK5nTuBuq5/wDtNyHE5eHXF4QuNtYXwXR4BOpWKlcVAduLK+nKjoXcpD2g1obAGXPpyuPwJY9DnPgP0TWNY3zwGspmmU2tJvB09nySw0/tT7weKuKkhY5DjVsJPy+yupGiQpJKnl8MmrRgcfwVP0BNX7Psxd4JLI0qDumgdaI34qA4xfWp56uVuLG8nIEziJxTnKOV1DsewySbXTxxfup2MDu4F4AXesHOo6wIDAQAB";//锟教程查看锟斤拷取锟斤拷式锟斤拷锟斤拷锟斤拷锟斤拷锟矫ｏ拷
+	//寮傛鍥炶皟: A鏈嶅姟鍣ㄩ�氱煡锛屽搴旂殑鍙傛暟涓簄otify_url锛屾敮浠樺疂閫氱煡浣跨敤POST鏂瑰紡
 	public static String notify_url = "http://localhost:8080/alipay/alipayNotifyNotice.action";
-	
+	//鍚屾鍥炶皟: B椤甸潰璺宠浆閫氱煡锛屽搴旂殑鍙傛暟涓簉eturn_url锛屾敮浠樺疂閫氱煡浣跨敤GET鏂瑰紡
 	public static String return_url = "http://localhost:8080/alipay/alipayReturnNotice.action";
 	
 	public static String sign_type = "RSA2";
 	
 	public static String charset = "utf-8";
 	
-	public static String gatewayUrl = "https://openapi.alipaydev.com/gateway.do";//注意：沙箱测试环境，正式环境为：https://openapi.alipay.com/gateway.do
+	public static String gatewayUrl = "https://openapi.alipaydev.com/gateway.do";
 }
