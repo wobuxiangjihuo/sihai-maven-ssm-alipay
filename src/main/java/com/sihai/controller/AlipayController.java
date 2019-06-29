@@ -124,7 +124,8 @@ public class AlipayController {
 	 */
 	@RequestMapping(value = "/createOrder")
 	@ResponseBody
-	public LeeJSONResult createOrder(Orders order) throws Exception {
+	public LeeJSONResult createOrder(Orders order) throws Exception
+	{
 
 		Product p = productService.getProductById(order.getProductId());
 
@@ -174,7 +175,8 @@ public class AlipayController {
 	 */
 	@RequestMapping(value = "/goAlipay", produces = "text/html; charset=UTF-8")
 	@ResponseBody
-	public String goAlipay(String orderId, HttpServletRequest request, HttpServletRequest response) throws Exception {
+	public String goAlipay(String orderId, HttpServletRequest request, HttpServletRequest response) throws Exception
+	{
 
 		Orders order = orderService.getOrderById(orderId);
 
@@ -245,7 +247,8 @@ public class AlipayController {
 			valueStr = new String(valueStr.getBytes("ISO-8859-1"), "utf-8");
 			params.put(name, valueStr);
 		}
-
+		log.info("支付成功, 进入同步通知接口...");
+		log.info("支付成功, 进入同步通知接口...");
 		boolean signVerified = AlipaySignature.rsaCheckV1(params, AlipayConfig.alipay_public_key, AlipayConfig.charset, AlipayConfig.sign_type); //调用SDK验证签名
 
 		ModelAndView mv = new ModelAndView("alipaySuccess");
@@ -262,7 +265,6 @@ public class AlipayController {
 
 			// 修改叮当状态，改为 支付成功，已付款; 同时新增支付流水
 			orderService.updateOrderStatus(out_trade_no, trade_no, total_amount);
-
 
 			Orders order = orderService.getOrderById(out_trade_no);
 			Product product = productService.getProductById(order.getProductId());
