@@ -60,13 +60,18 @@
 	    	type: "POST",
 	    	data: {"productId": $("#productId").val(), "buyCounts": $("#buyCounts").val()},
 	    	dataType: "json",
-	    	success: function(data) {
-	            if(data.status == 200 && data.msg == "OK") {
+	    	success: function(data)
+			{
+	            if(data.status == 200 && data.msg == "OK")
+	            {
 	            	debugger;
 	            	// 提交订单成功后, 进入购买页面
 	            	window.location.href = hdnContextPath + "/alipay/goPay.action?orderId=" + data.data;
-	            } else {
+	            }
+	            else
+	            	{
 	            	alert(data.msg);
+	            	alert("111111111");
 	            	console.log(JSON.stringify(data));
 	            }
 	    	}
